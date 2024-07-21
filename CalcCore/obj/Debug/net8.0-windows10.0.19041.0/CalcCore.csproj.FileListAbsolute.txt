@@ -1,0 +1,12 @@
+C:\Users\User1\source\repos\Calculator\CalcCore\bin\Debug\net8.0-windows10.0.19041.0\CalcCore.deps.json
+C:\Users\User1\source\repos\Calculator\CalcCore\bin\Debug\net8.0-windows10.0.19041.0\CalcCore.dll
+C:\Users\User1\source\repos\Calculator\CalcCore\bin\Debug\net8.0-windows10.0.19041.0\CalcCore.pdb
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-windows10.0.19041.0\CalcCore.csproj.AssemblyReference.cache
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-windows10.0.19041.0\CalcCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-windows10.0.19041.0\CalcCore.AssemblyInfoInputs.cache
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-windows10.0.19041.0\CalcCore.AssemblyInfo.cs
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-windows10.0.19041.0\CalcCore.csproj.CoreCompileInputs.cache
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-windows10.0.19041.0\CalcCore.dll
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-windows10.0.19041.0\refint\CalcCore.dll
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-windows10.0.19041.0\CalcCore.pdb
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-windows10.0.19041.0\ref\CalcCore.dll
