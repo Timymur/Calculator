@@ -301,6 +301,37 @@ namespace CalcTests
             Assert.AreEqual("", calc.preDisplay);
         }
 
+        [TestMethod]
+        public void PreDisplay_ShouldAddUnarMinus_WhenInputUnarMinus()
+        {
+            var calc = new Calc();
+
+            calc.Input('1');
+            calc.Input('8');
+            calc.Input('+');
+            calc.Input('1');
+            calc.Input('±');
+
+
+            Assert.AreEqual("18+-1", calc.preDisplay);
+        }
+
+        [TestMethod]
+        public void Display_ShouldAddUnarMinus_WhenInputUnarMinus()
+        {
+            var calc = new Calc();
+
+            calc.Input('1');
+            calc.Input('8');
+            calc.Input('+');
+            calc.Input('1');
+            calc.Input('±');
+
+
+            Assert.AreEqual(-1, calc.Display);
+        }
+
+
 
 
 

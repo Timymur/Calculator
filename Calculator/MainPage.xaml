@@ -35,7 +35,7 @@
 
         <Button Text="←" Grid.Column="0" Grid.Row="3" Pressed="Button_Pressed" Margin="10" BackgroundColor="Orange" FontSize="40" />
         <Button Text="^" Grid.Column="1" Grid.Row="3" Pressed="Button_Pressed" Margin="10" BackgroundColor="Gray"/>
-        <Button Text="%" Grid.Column="2" Grid.Row="3" Pressed="Button_Pressed" Margin="10" BackgroundColor="Gray"/>
+        <Button Text="±" Grid.Column="2" Grid.Row="3" Pressed="Button_Pressed" Margin="10" BackgroundColor="Gray"/>
         <Button Text="/" Grid.Column="3" Grid.Row="3" Pressed="Button_Pressed" Margin="10" BackgroundColor="Gray"/>
 
 

@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\User1\source\repos\Calculator\Calculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-07-21T09:00:58.877</Modified>
+      <Modified>2024-07-25T04:19:27.401</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\source\repos\Calculator\Calculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Calculator.dll">
       <PackagePath>Calculator.dll</PackagePath>
-      <Modified>2024-07-21T09:00:57.670</Modified>
+      <Modified>2024-07-25T04:19:26.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\source\repos\Calculator\CalcCore\bin\Debug\net8.0-windows10.0.19041.0\CalcCore.dll">
       <PackagePath>CalcCore.dll</PackagePath>
-      <Modified>2024-07-21T07:49:34.898</Modified>
+      <Modified>2024-07-25T04:37:49.753</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\source\repos\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Calculator.exe</PackagePath>
-      <Modified>2024-07-21T09:00:57.717</Modified>
+      <Modified>2024-07-25T04:19:26.635</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\source\repos\Calculator\Calculator\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
