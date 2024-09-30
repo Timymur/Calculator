@@ -17,3 +17,24 @@ C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.dl
 C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-ios\refint\CalcCore.dll
 C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.pdb
 C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-ios\ref\CalcCore.dll
+C:\Users\User1\source\repos\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.sourcelink.json
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\bin\Debug\net8.0-ios\CalcCore.dll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\bin\Debug\net8.0-ios\CalcCore.pdb
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\actool\_PartialAppManifest.items
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\actool\_BundleResourceWithLogicalName.items
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\actool\_ProcessedImageAssetsPath.items
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\coremlc\_PartialAppManifest.items
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\coremlc\_ProcessedCoreMLModelsPath.items
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\_ProcessedBundleResourcesPath.items
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\_ProcessedContentPath.items
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.csproj.AssemblyReference.cache
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.AssemblyInfo.cs
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.sourcelink.json
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.dll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\refint\CalcCore.dll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\CalcCore.pdb
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\obj\Debug\net8.0-ios\ref\CalcCore.dll

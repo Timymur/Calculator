@@ -331,10 +331,5 @@ namespace CalcTests
             Assert.AreEqual(-1, calc.Display);
         }
 
-
-
-
-
-
     }
 }

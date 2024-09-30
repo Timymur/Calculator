@@ -1,2 +1,2 @@
-C:\Users\User1\source\repos\Calculator\CalcCore\CalcCore.csproj;neutral
-C:\Users\User1\source\repos\Calculator\Calculator\Calculator.csproj;x64
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\CalcCore.csproj;neutral
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\Calculator.csproj;x64

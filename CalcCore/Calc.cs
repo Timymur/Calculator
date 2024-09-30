@@ -82,47 +82,33 @@ namespace CalcCore
             _operation = null;
             strDisplay = "";
             _plusMinus = false;
+            _isOperationExist = false;
+            _comma = false;
+            _shouldTwiceEqual = false;
 
-        }
+    }
 
         private void setOperation(char argument)
         {
-            if (!_isOperationExist)  // Если еще не было введенной операции
-            {
-                
-                _operand1 = Display; // записываем операнд1
-                _operation = argument; // записываем операцию
-                _isOperationExist = true; // операция уже есть
 
-                preDisplay = _operand1.ToString() + argument.ToString(); // на экран добавили операцию
-                strDisplay = ""; // Обнуляем вспом. переменную
-                Display = 0; // обнулили дисплей для ввода второго операнда
+            _plusMinus = false;
+            _comma = false;// После ввода оперции не может быть второй запятой
 
-                _shouldTwiceEqual = false; // После ввода операции не может быть повторного равно
-                _comma = false;// После ввода оперции не может быть второй запятой
-                
-                
-                return;
-            }
-            else // Если уже есть операция
-            {
+            if (_isOperationExist)  // Если уже есть операция
                 calculate(); // Вызываем метод выичсления, с предыдущей операцией
+                
 
-                _shouldTwiceEqual = false; // Повторное равно не может быть
-                _operation = argument; // перезаписываем новую операцию
-                _isOperationExist = true; // операция есть
+            _operand1 = Display; // Перезаписали операнд1
+            _operation = argument; // перезаписываем новую операцию
+            _isOperationExist = true; // операция есть
 
-                preDisplay = Display.ToString() + _operation; // на экран добавили операцию
-                _operand1 = Display; // Перезаписали операнд1
+            preDisplay = Display.ToString() + _operation; // на экран добавили операцию
+            Display = 0; // Обнулили дисплей
+            strDisplay = Display.ToString(); // Обнулили строковый дисплей
 
-                Display = 0; // Обнулили дисплей
-                strDisplay = Display.ToString(); // Обнулили строковый дисплей
+            _shouldTwiceEqual = false; // После ввода операции не может быть повторного равно
 
-                return;
-
-            }
-
-
+            return;
         }
 
         private void calculate()
@@ -131,6 +117,8 @@ namespace CalcCore
             if (_shouldTwiceEqual)// Если есть повторное равно, то используем операнд 2
             {
                 _operand1 = Display;
+
+
                 if (_operation == '+') Display = _operand1.Value + _operand2.Value;
  
                 if (_operation == '-') Display = _operand1.Value - _operand2.Value;
@@ -152,10 +140,14 @@ namespace CalcCore
                     Display = _operand1.Value / _operand2.Value;
                 }
 
+                
                 preDisplay = _operand1.ToString() + _operation + _operand2.ToString() + "=" + Display.ToString();
 
                 _isOperationExist = false; // Снимаем флаг с операции. операция хранится для повторного равно. При следующем вводе операции метод выичсления вызываться не будет
+                
+                _operand1 = Display;
                 strDisplay = Display.ToString();
+                
                 return;
             }
 
@@ -182,32 +174,49 @@ namespace CalcCore
                 Display = _operand1.Value / Display;
             }
 
-
-            _operand1 = Display;
             preDisplay += "=" + Display.ToString();
 
-            _shouldTwiceEqual = true; // Зписали равно 
-            
+            _operand1 = Display;
             strDisplay = Display.ToString();
+
+            _shouldTwiceEqual = true; // Зписали равно 
             _isOperationExist = false; // Снимаем флаг с операции. операция хранится для повторного равно. При следующем вводе операции метод выичсления вызываться не будет
+            
             return;
         }
 
         private void plusMinus() // унарный минус
         {
-            if (_plusMinus)// Если есть флаш удаляем минус с предисплея
+            if (preDisplay.Length < 1) return;
+            if (Display == 0) return;
+
+            strDisplay = Display.ToString();
+
+            if (Display < 0) _plusMinus = true; // Если на дисплее отрицательное число, то устанавливаем флаг
+
+
+            if (_plusMinus)// Если есть флаг удаляем минус с предисплея
             {
-                _plusMinus = false;
+                
                 var l = preDisplay.Length - strDisplay.Length; // индекс, по которому находится -
+
+                if (preDisplay.Contains("=")) l -= 2;// Если на предисплее есть равно, то смещаем индекс за счет двух лишних символов = и ;
+
                 preDisplay = preDisplay.Remove(l, 1);
+                _plusMinus = false;
 
             }
 
             else { 
-                _plusMinus = true;
+
+                
                 var l = preDisplay.Length - strDisplay.Length; // индекс, куда нужно вставить -
                 var m = "-";
+
+                if (preDisplay.Contains("=")) l -= 2;// Если на предисплее есть равно, то смещаем индекс за счет двух лишних символов = и ;
+
                 preDisplay = preDisplay.Insert(l, m);
+                _plusMinus = true;
             }
             
             Display = Display * -1; // меняем дисплей на отрицательный
