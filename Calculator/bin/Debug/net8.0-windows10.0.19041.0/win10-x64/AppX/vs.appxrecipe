@@ -29,29 +29,29 @@
     <AppXManifest Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-09-19T07:32:06.838</Modified>
+      <Modified>2024-10-04T06:16:44.860</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-09-19T07:32:06.591</Modified>
+      <Modified>2024-09-30T12:56:18.634</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Calculator.runtimeconfig.json">
       <PackagePath>Calculator.runtimeconfig.json</PackagePath>
-      <Modified>2024-09-19T07:24:07.484</Modified>
+      <Modified>2024-09-30T12:56:42.457</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Calculator.dll">
       <PackagePath>Calculator.dll</PackagePath>
-      <Modified>2024-09-19T07:32:05.381</Modified>
+      <Modified>2024-09-30T13:41:19.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\bin\Debug\net8.0-windows10.0.19041.0\CalcCore.dll">
       <PackagePath>CalcCore.dll</PackagePath>
-      <Modified>2024-09-30T10:33:38.403</Modified>
+      <Modified>2024-10-04T06:29:15.070</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Calculator.exe</PackagePath>
-      <Modified>2024-09-19T07:32:05.416</Modified>
+      <Modified>2024-09-30T13:41:20.009</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
@@ -59,23 +59,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2024-07-07T11:35:50.570</Modified>
+      <Modified>2024-09-30T12:56:14.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2024-07-07T11:35:50.586</Modified>
+      <Modified>2024-09-30T12:56:14.098</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2024-07-07T11:35:50.601</Modified>
+      <Modified>2024-09-30T12:56:14.122</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2024-07-07T11:35:50.617</Modified>
+      <Modified>2024-09-30T12:56:14.179</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2024-07-07T11:35:50.696</Modified>
+      <Modified>2024-09-30T12:56:14.264</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -87,211 +87,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2024-08-28T11:42:24.716</Modified>
+      <Modified>2024-09-30T12:56:16.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.710</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.710</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.710</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.710</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.709</Modified>
+      <Modified>2024-09-30T12:56:16.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.714</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.714</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.713</Modified>
+      <Modified>2024-09-30T12:56:16.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.713</Modified>
+      <Modified>2024-09-30T12:56:16.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.713</Modified>
+      <Modified>2024-09-30T12:56:16.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.715</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.715</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.714</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.714</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.714</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.716</Modified>
+      <Modified>2024-09-30T12:56:16.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.716</Modified>
+      <Modified>2024-09-30T12:56:16.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.716</Modified>
+      <Modified>2024-09-30T12:56:16.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.716</Modified>
+      <Modified>2024-09-30T12:56:16.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.715</Modified>
+      <Modified>2024-09-30T12:56:16.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.715</Modified>
+      <Modified>2024-09-30T12:56:16.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.715</Modified>
+      <Modified>2024-09-30T12:56:16.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.715</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.715</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.715</Modified>
+      <Modified>2024-09-30T12:56:16.221</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.711</Modified>
+      <Modified>2024-09-30T12:56:16.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.711</Modified>
+      <Modified>2024-09-30T12:56:16.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.711</Modified>
+      <Modified>2024-09-30T12:56:16.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.711</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.711</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.712</Modified>
+      <Modified>2024-09-30T12:56:16.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.712</Modified>
+      <Modified>2024-09-30T12:56:16.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.712</Modified>
+      <Modified>2024-09-30T12:56:16.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.711</Modified>
+      <Modified>2024-09-30T12:56:16.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.711</Modified>
+      <Modified>2024-09-30T12:56:16.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.713</Modified>
+      <Modified>2024-09-30T12:56:16.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.712</Modified>
+      <Modified>2024-09-30T12:56:16.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.712</Modified>
+      <Modified>2024-09-30T12:56:16.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.712</Modified>
+      <Modified>2024-09-30T12:56:16.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.712</Modified>
+      <Modified>2024-09-30T12:56:16.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.711</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.711</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.710</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.710</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.710</Modified>
+      <Modified>2024-09-30T12:56:16.218</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.709</Modified>
+      <Modified>2024-09-30T12:56:16.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.709</Modified>
+      <Modified>2024-09-30T12:56:16.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.709</Modified>
+      <Modified>2024-09-30T12:56:16.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.709</Modified>
+      <Modified>2024-09-30T12:56:16.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2024-08-28T11:42:24.708</Modified>
+      <Modified>2024-09-30T12:56:16.217</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Calculator.deps.json">
       <PackagePath>Calculator.deps.json</PackagePath>
-      <Modified>2024-09-19T07:32:06.304</Modified>
+      <Modified>2024-09-30T12:56:42.456</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

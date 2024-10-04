@@ -2099,3 +2099,13 @@ C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\Т
 C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEditTextAttachedListenerImplementor.java
 C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\src\mono\com\google\android\material\textfield\TextInputLayout_OnEndIconChangedListenerImplementor.java
 C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\src\mono\MonoPackageManager_Resources.java
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\assets\arm64-v8a\System.Private.CoreLib.dll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\assets\armeabi-v7a\System.Private.CoreLib.dll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\assets\x86\System.Private.CoreLib.dll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\assets\x86_64\System.Private.CoreLib.dll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\typemaps.armeabi-v7a.ll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\typemaps.x86.ll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\typemaps.x86_64.ll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\environment.armeabi-v7a.ll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\environment.x86.ll
+C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-android34.0\android\environment.x86_64.ll

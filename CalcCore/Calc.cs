@@ -10,7 +10,7 @@ namespace CalcCore
         public double Display { get; private set; } // Выводит на экран текущее значение
         public string preDisplay { get; private set; } = ""; // Выводит на экран последние действия
 
-        string strDisplay; // Вспомогательная переменная для дробных чисел, обнуляется при равно либо при нажатии на операцию. равно Дисплей
+        string strDisplay = ""; // Вспомогательная переменная для дробных чисел, обнуляется при равно либо при нажатии на операцию. равно Дисплей
 
 
         private char? _operation = null;  // Переменная которая вычисляется сразу, без равно
@@ -94,9 +94,8 @@ namespace CalcCore
             _plusMinus = false;
             _comma = false;// После ввода оперции не может быть второй запятой
 
-            if (_isOperationExist)  // Если уже есть операция
-                calculate(); // Вызываем метод выичсления, с предыдущей операцией
-                
+            if (_isOperationExist)  calculate();  // Если уже есть операция // Вызываем метод выичсления, с предыдущей операцией
+
 
             _operand1 = Display; // Перезаписали операнд1
             _operation = argument; // перезаписываем новую операцию
@@ -119,32 +118,32 @@ namespace CalcCore
                 _operand1 = Display;
 
 
-                if (_operation == '+') Display = _operand1.Value + _operand2.Value;
- 
-                if (_operation == '-') Display = _operand1.Value - _operand2.Value;
+                if(_operation == '+') Display += _operand2.Value;
 
-                if (_operation == '*') Display = _operand1.Value * _operand2.Value;
+                if (_operation == '-') Display -= _operand2.Value;
+
+                if (_operation == '*') Display *= _operand2.Value;
 
 
-                if (_operation == '^') Display = Math.Pow(_operand1.Value, _operand2.Value);
+                if (_operation == '^') Display = Math.Pow(Display, _operand2.Value);
 
                 if (_operation == '/')
                 {
                     if (_operand2 == 0)
                     {
-                        Display = 0;
-                        preDisplay = " ";
+                        reset();
                         return;
                     }
                     
-                    Display = _operand1.Value / _operand2.Value;
+                    Display /= _operand2.Value;
                 }
 
                 
                 preDisplay = _operand1.ToString() + _operation + _operand2.ToString() + "=" + Display.ToString();
 
                 _isOperationExist = false; // Снимаем флаг с операции. операция хранится для повторного равно. При следующем вводе операции метод выичсления вызываться не будет
-                
+                _comma = false; // Второй запятой после равно не может быть
+
                 _operand1 = Display;
                 strDisplay = Display.ToString();
                 
@@ -165,10 +164,9 @@ namespace CalcCore
 
             if (_operation == '/')
             {
-                if (_operand2 == 0)
+                if (Display == 0)
                 {
-                    Display = 0;
-                    preDisplay = "Ай-ай-ай";
+                    reset();
                     return;
                 }
                 Display = _operand1.Value / Display;
@@ -181,47 +179,38 @@ namespace CalcCore
 
             _shouldTwiceEqual = true; // Зписали равно 
             _isOperationExist = false; // Снимаем флаг с операции. операция хранится для повторного равно. При следующем вводе операции метод выичсления вызываться не будет
-            
+            _comma = false; // Второй запятой после равно не может быть
+
             return;
         }
 
         private void plusMinus() // унарный минус
         {
-            if (preDisplay.Length < 1) return;
+            
             if (Display == 0) return;
 
             strDisplay = Display.ToString();
 
             if (Display < 0) _plusMinus = true; // Если на дисплее отрицательное число, то устанавливаем флаг
 
+            var l = preDisplay.Length - strDisplay.Length; // индекс, куда нужно вставить(убрать) -
+
 
             if (_plusMinus)// Если есть флаг удаляем минус с предисплея
             {
-                
-                var l = preDisplay.Length - strDisplay.Length; // индекс, по которому находится -
-
-                if (preDisplay.Contains("=")) l -= 2;// Если на предисплее есть равно, то смещаем индекс за счет двух лишних символов = и ;
-
                 preDisplay = preDisplay.Remove(l, 1);
                 _plusMinus = false;
-
             }
 
             else { 
-
-                
-                var l = preDisplay.Length - strDisplay.Length; // индекс, куда нужно вставить -
-                var m = "-";
-
-                if (preDisplay.Contains("=")) l -= 2;// Если на предисплее есть равно, то смещаем индекс за счет двух лишних символов = и ;
-
-                preDisplay = preDisplay.Insert(l, m);
+                preDisplay = preDisplay.Insert(l, "-");
                 _plusMinus = true;
             }
             
             Display = Display * -1; // меняем дисплей на отрицательный
             strDisplay = Display.ToString(); // меняем строковый дисплей на отрицательный
         }
+ 
         public void Input(char argument)
         {
             if (argument == 'C') //Сбрасываем все значения
@@ -239,9 +228,6 @@ namespace CalcCore
             if (argument == '=')// Вычисления
             {
                 calculate();
-                _comma = false; // Второй запятой после равно не может быть
-                strDisplay = ""; // обнуляем строковый Дисплей
-                if(_operand2 != null) preDisplay += "; "; 
                 return;
             }
 

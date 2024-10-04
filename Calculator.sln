@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcTests", "CalcTests\CalcTests.csproj", "{D8D77911-FD44-4EAF-AEA3-C90B88660164}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcCore", "CalcCore\CalcCore.csproj", "{38852DAC-6219-49E6-B879-3C5E277CF076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalcCore", "CalcCore\CalcCore.csproj", "{38852DAC-6219-49E6-B879-3C5E277CF076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
