@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CalcCore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6ca872cf98c505540a76437d36df2e065721072")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfa481cfd347ea3083404fd99b84b8df7e14f102")]
 [assembly: System.Reflection.AssemblyProductAttribute("CalcCore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CalcCore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

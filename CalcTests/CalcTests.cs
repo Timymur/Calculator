@@ -149,7 +149,6 @@ namespace CalcTests
             calc.Input(',');
             calc.Input('3');
             calc.Input('4');
-            calc.Input('=');
             calc.Input('←');
             calc.Input('←');
             calc.Input('←');
@@ -194,7 +193,7 @@ namespace CalcTests
         }
 
         [TestMethod]
-        public void Display_ShouldBeEqualInputWithSomeComma_AfterInputSomeComma()
+        public void Display_ShouldBeEqualInputWithOneComma_AfterInputSomeComma()
         {
             var calc = new Calc();
 
@@ -246,7 +245,6 @@ namespace CalcTests
             calc.Input('4');
             calc.Input(',');
             calc.Input('+');
-
             calc.Input('3');
             calc.Input(',');
             calc.Input(',');

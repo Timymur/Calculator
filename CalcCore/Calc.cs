@@ -43,7 +43,7 @@ namespace CalcCore
 
         private void comma(char argument)
         {
-            if (_comma) return; // Ксли есть запятая, то ничего не делаем
+            if (_comma) return; // Если есть запятая, то ничего не делаем
             _comma = true;
             strDisplay += argument.ToString(); // добавляем вспомогательной переменной запятую, следующее введенное число выведет на дисплей дробь
             preDisplay += argument.ToString();
@@ -92,7 +92,7 @@ namespace CalcCore
         {
 
             _plusMinus = false;
-            _comma = false;// После ввода оперции не может быть второй запятой
+            _comma = false;// После ввода оперции не может быть ошибки второй запятой
 
             if (_isOperationExist)  calculate();  // Если уже есть операция // Вызываем метод выичсления, с предыдущей операцией
 
@@ -115,7 +115,7 @@ namespace CalcCore
             if (_operation == null) return; //Eсли нет операции, то ничего не делаем
             if (_shouldTwiceEqual)// Если есть повторное равно, то используем операнд 2
             {
-                _operand1 = Display;
+                
 
 
                 if(_operation == '+') Display += _operand2.Value;
