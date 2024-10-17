@@ -210,26 +210,7 @@ namespace CalcTests
             Assert.AreEqual(12.34, calc.Display);
         }
 
-        [TestMethod]
-        public void ResetComma_CommaShouldBeReset_AfterInputOperation()
-        {
-            var calc = new Calc();
-
-            calc.Input('1');
-            calc.Input('2');
-            calc.Input(',');
-            calc.Input(',');
-            calc.Input('3');
-            calc.Input(',');
-            calc.Input('4');
-            calc.Input(',');
-            calc.Input('+');
-            calc.Input('3');
-            calc.Input('4');
-
-
-            Assert.AreEqual(false, calc.getComma());
-        }
+      
 
         [TestMethod]
         public void Display_ShouldBeEqualInputWithSecondComma_AfterInputSecondOperand()
@@ -327,6 +308,16 @@ namespace CalcTests
 
 
             Assert.AreEqual(-1, calc.Display);
+        }
+
+        [TestMethod]
+        public void Display_ShouldDoNothing_WhenInputAnotherSymbols()
+        {
+            var calc = new Calc();
+
+            calc.Input('a');
+
+            Assert.AreEqual(0, calc.Display);
         }
 
     }

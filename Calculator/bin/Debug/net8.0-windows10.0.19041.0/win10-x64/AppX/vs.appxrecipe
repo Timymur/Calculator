@@ -29,7 +29,7 @@
     <AppXManifest Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-10-12T12:49:37.376</Modified>
+      <Modified>2024-10-17T12:11:31.510</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,15 +43,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Calculator.dll">
       <PackagePath>Calculator.dll</PackagePath>
-      <Modified>2024-10-12T12:49:36.607</Modified>
+      <Modified>2024-10-15T09:09:08.086</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\CalcCore\bin\Debug\net8.0-windows10.0.19041.0\CalcCore.dll">
       <PackagePath>CalcCore.dll</PackagePath>
-      <Modified>2024-10-12T13:04:37.825</Modified>
+      <Modified>2024-10-17T12:20:45.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Calculator.exe</PackagePath>
-      <Modified>2024-10-12T12:49:36.648</Modified>
+      <Modified>2024-10-15T09:09:08.096</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\User1\Desktop\001001010101001\Учеба\4 курс 7 семестр\ТРПО Z\Calculator\Calculator\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

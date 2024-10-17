@@ -5,7 +5,7 @@ namespace CalcCore
     // All the code in this file is included in all platforms.
     public class Calc
     {
-
+        List<string> numbers = new List<string>() { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9" };
         public double Display { get; private set; } // Выводит на экран текущее значение
         public string preDisplay { get; private set; } = ""; // Выводит на экран последние действия
 
@@ -34,7 +34,7 @@ namespace CalcCore
 
         private void comma(char argument)
         {
-            if ((Display % 1) != 0) return; // Если число дробное, то ничего не делаем
+            if (strDisplay.Contains(',')) return; // Если число дробное, то ничего не делаем
 
             strDisplay += argument.ToString(); // добавляем вспомогательной переменной запятую, следующее введенное число выведет на дисплей дробь
             preDisplay += argument.ToString();
@@ -179,6 +179,10 @@ namespace CalcCore
        
         public void Input(char argument)
         {
+
+
+
+
             if (argument == 'C') 
             {
                 reset();
@@ -218,12 +222,21 @@ namespace CalcCore
             }
 
 
-            preDisplay += argument.ToString();  // На экран добавляем нажатую клавишу
 
-            strDisplay += argument.ToString(); // Строковому дисплею добавляем нажатую клавишу, может хранится с запятой на конце, поэтому она стринг
-            Display = Convert.ToDouble(strDisplay);// Переводим строковый дисплей в обычный Дисплей
+            
 
-            return;
+            if (numbers.Contains(argument.ToString())) {
+
+                preDisplay += argument.ToString();  // На экран добавляем нажатую клавишу
+
+                strDisplay += argument.ToString(); // Строковому дисплею добавляем нажатую клавишу, может хранится с запятой на конце, поэтому она стринг
+                Display = Convert.ToDouble(strDisplay);// Переводим строковый дисплей в обычный Дисплей
+
+
+            }
+
+            
+
         }
 
     }
