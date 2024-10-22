@@ -9,27 +9,83 @@ namespace CalcCore
         public double Display { get; private set; } // Выводит на экран текущее значение
         public string preDisplay { get; private set; } = ""; // Выводит на экран последние действия
 
-        string strDisplay; // Вспомогательная переменная для дробных чисел, обнуляется при равно либо при нажатии на операцию. равно Дисплей
+        string strDisplay = ""; // Вспомогательная переменная для дробных чисел
 
         private char? _operation = null;  // Переменная которая вычисляется сразу, без равно
         private double? _operand1 = null;
         private double? _operand2 = null;
+
+
+        private string preDisplay2
+        {
+            get
+            {
+                return Display.ToString();
+            }
+            set
+            {
+                Display = Convert.ToDouble(value);
+            }
+        }
+
+
+
        
 
-        public double? getOperand1()
+
+        public void Input(char argument)
         {
-            return _operand1;
-        }
-        public double? getOperand2()
-        {
-            return _operand2;
+
+            if (argument == 'C')
+            {
+                reset();
+                return;
+            }
+
+            if (argument == '←')
+            {
+                cancel();
+                return;
+            }
+
+            if (argument == '=')
+            {
+                calculate();
+                return;
+            }
+
+
+            if (argument == ',')
+            {
+                comma(argument);
+                return;
+            }
+
+            if (argument == '±')
+            {
+                plusMinus();
+                return;
+            }
+
+            if (argument == '+' || argument == '-' || argument == '*' || argument == '/' || argument == '^')
+            {
+                setOperation(argument);
+                return;
+            }
+
+
+            if (numbers.Contains(argument.ToString()))
+            {
+                cleanScreen();
+
+                preDisplay += argument.ToString();  // На экран добавляем нажатую клавишу
+                strDisplay += argument.ToString(); // Строковому дисплею добавляем нажатую клавишу, может хранится с запятой на конце, поэтому она стринг
+                Display = Convert.ToDouble(strDisplay);// Переводим строковый дисплей в обычный Дисплей
+
+            }
         }
 
 
-        public char? getOperation()
-        {
-            return _operation;
-        }
 
 
         private void comma(char argument)
@@ -60,8 +116,6 @@ namespace CalcCore
                 Display = Convert.ToDouble(preDisplay);// Иначе возвращаем измененное значение, без последнего элемента
                 strDisplay = Display.ToString();
             }
-
-
         }
 
         private void reset()
@@ -72,33 +126,31 @@ namespace CalcCore
             _operand2 = null;
             _operation = null;
             strDisplay = "";
-
         }
 
         private void setOperation(char argument)
         {
 
-            if (_operand1 != null) calculate(); 
-          // Если операнд1  не равен null, значит что вычисления еще не проводилось, при повторном вводе операции вызывается метод вычисления  с предыдущей операцией
+            if (_operand1 != null) calculate();
 
-            _operand1 = Display; // Перезаписали операнд1
-            _operation = argument; // перезаписываем новую операцию
+            _operand1 = Display; 
+            _operation = argument; 
 
-            preDisplay = Display.ToString() + _operation; // на экран добавили операцию
-            Display = 0; // Обнулили дисплей
-            strDisplay = Display.ToString(); // Обнулили строковый дисплей
+            preDisplay = Display.ToString() + _operation; 
+            
 
             return;
         }
 
         private void calculate()
         {
-            if (_operation == null) return; //Eсли нет операции, то ничего не делаем
+            if (_operation == null) return; 
 
-            if (_operand1 == null)// Если есть повторное равно, то используем операнд 2
+            if (_operand1 == null)
             {
                 preDisplay = Display.ToString();
 
+                if (_operand2 == null) return;
 
                 if (_operation == '+') Display += _operand2.Value;
 
@@ -129,8 +181,8 @@ namespace CalcCore
                 return;
             }
 
-            // Если не было потворного равно то 
-            _operand2 = Display;// Перезаписываем операнд2
+            
+            _operand2 = Display;
 
             if (_operation == '+') Display += _operand1.Value;
 
@@ -146,7 +198,7 @@ namespace CalcCore
                 if (_operand2 == 0)
                 {
                     Display = 0;
-                    preDisplay = "Ай-ай-ай";
+                    preDisplay = "0";
                     return;
                 }
                 Display = _operand1.Value / Display;
@@ -160,7 +212,7 @@ namespace CalcCore
             return;
         }
 
-        private void plusMinus() 
+        private void plusMinus()
         {
 
             if (Display == 0) return;
@@ -171,73 +223,34 @@ namespace CalcCore
 
             if (Display < 0) preDisplay = preDisplay.Remove(l, 1);
 
-            else             preDisplay = preDisplay.Insert(l, "-");
+            else preDisplay = preDisplay.Insert(l, "-");
 
             Display = Display * -1; // меняем дисплей на отрицательный
             strDisplay = Display.ToString(); // меняем строковый дисплей на отрицательный
         }
-       
-        public void Input(char argument)
+        private void cleanScreen()
         {
-
-
-
-
-            if (argument == 'C') 
+            if (preDisplay != "")
             {
-                reset();
-                return;
-            }
+                string str = preDisplay[preDisplay.Length - 1].ToString();
 
-            if (argument == '←')
-            {
-                cancel();
-                return;
-            }
+                if (str == "+" || str == "-" || str == "*" || str == "/" || str == "^")
+                {
+                    Display = 0;
+                    strDisplay = Display.ToString();
+                }
 
-            if (argument == '=')
-            {
-                calculate(); 
-                return;
-            }
-
-
-            if (argument == ',')
-            {
-                comma(argument); 
-                return;
-            }
-
-            if (argument == '±')
-            {
-                plusMinus();
-                return;
+                if (preDisplay.Contains("="))
+                {
+                    preDisplay = "";
+                    Display = 0;
+                    strDisplay = Display.ToString();
+                }
 
             }
-
-            if (argument == '+' || argument == '-' || argument == '*' || argument == '/' || argument == '^')
-            {
-                setOperation(argument);
-                return;
-            }
-
-
-
-            
-
-            if (numbers.Contains(argument.ToString())) {
-
-                preDisplay += argument.ToString();  // На экран добавляем нажатую клавишу
-
-                strDisplay += argument.ToString(); // Строковому дисплею добавляем нажатую клавишу, может хранится с запятой на конце, поэтому она стринг
-                Display = Convert.ToDouble(strDisplay);// Переводим строковый дисплей в обычный Дисплей
-
-
-            }
-
-            
 
         }
 
+        
     }
 }

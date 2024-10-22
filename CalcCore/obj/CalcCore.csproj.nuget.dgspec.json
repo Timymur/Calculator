@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcCore\\CalcCore.csproj": {}
+    "C:\\Users\\User1\\Desktop\\Calculator\\CalcCore\\CalcCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcCore\\CalcCore.csproj": {
+    "C:\\Users\\User1\\Desktop\\Calculator\\CalcCore\\CalcCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcCore\\CalcCore.csproj",
+        "projectUniqueName": "C:\\Users\\User1\\Desktop\\Calculator\\CalcCore\\CalcCore.csproj",
         "projectName": "CalcCore",
-        "projectPath": "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcCore\\CalcCore.csproj",
+        "projectPath": "C:\\Users\\User1\\Desktop\\Calculator\\CalcCore\\CalcCore.csproj",
         "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcCore\\obj\\",
+        "outputPath": "C:\\Users\\User1\\Desktop\\Calculator\\CalcCore\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

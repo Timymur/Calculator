@@ -4288,11 +4288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcTests\\CalcTests.csproj",
+      "projectUniqueName": "C:\\Users\\User1\\Desktop\\Calculator\\CalcTests\\CalcTests.csproj",
       "projectName": "CalcTests",
-      "projectPath": "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcTests\\CalcTests.csproj",
+      "projectPath": "C:\\Users\\User1\\Desktop\\Calculator\\CalcTests\\CalcTests.csproj",
       "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcTests\\obj\\",
+      "outputPath": "C:\\Users\\User1\\Desktop\\Calculator\\CalcTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4314,8 +4314,8 @@
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcCore\\CalcCore.csproj": {
-              "projectPath": "C:\\Users\\User1\\Desktop\\001001010101001\\Учеба\\4 курс 7 семестр\\ТРПО Z\\Calculator\\CalcCore\\CalcCore.csproj"
+            "C:\\Users\\User1\\Desktop\\Calculator\\CalcCore\\CalcCore.csproj": {
+              "projectPath": "C:\\Users\\User1\\Desktop\\Calculator\\CalcCore\\CalcCore.csproj"
             }
           }
         }

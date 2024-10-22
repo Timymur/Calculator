@@ -174,7 +174,7 @@ namespace CalcTests
             calc.Input('4');
             calc.Input('-');
 
-            Assert.AreEqual(46, calc.getOperand1());
+            Assert.AreEqual(46, calc.Display);
         }
         
         [TestMethod]
@@ -249,9 +249,7 @@ namespace CalcTests
             calc.Input('4');
             calc.Input('C');
 
-            Assert.AreEqual(null, calc.getOperand1());
-            Assert.AreEqual(null, calc.getOperand2());
-            Assert.AreEqual(null, calc.getOperation());
+
             Assert.AreEqual(0, calc.Display);
         }
 
@@ -318,6 +316,47 @@ namespace CalcTests
             calc.Input('a');
 
             Assert.AreEqual(0, calc.Display);
+        }
+
+        [TestMethod]
+        public void Display_ShouldShowInput_WhenInputAfterEqual()
+        {
+            var calc = new Calc();
+
+            calc.Input('1');
+            calc.Input('8');
+            calc.Input('+');
+            calc.Input('1');
+            calc.Input('=');
+            calc.Input('1');
+
+            Assert.AreEqual(1, calc.Display);
+        }
+        public void PreDisplay_ShouldShowInput_WhenInputAfterEqual()
+        {
+            var calc = new Calc();
+
+            calc.Input('1');
+            calc.Input('8');
+            calc.Input('+');
+            calc.Input('1');
+            calc.Input('=');
+            calc.Input('1');
+
+            Assert.AreEqual("1", calc.preDisplay);
+        }
+
+
+        public void Display_ShouldShowInput_WhenInputOperation()
+        {
+            var calc = new Calc();
+
+            calc.Input('1');
+            calc.Input('8');
+            calc.Input('+');
+            
+
+            Assert.AreEqual("18", calc.preDisplay);
         }
 
     }
